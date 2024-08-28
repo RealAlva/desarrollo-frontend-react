@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
-import { loginSuccess } from '../redux/slices/authSlice';  // Ya no importamos logout aquí, ya que se manejará en otro lugar
+import { loginSuccess } from '../redux/slices/authSlice';  // Importa la acción de loginSuccess
 import { useNavigate } from 'react-router-dom';
 import './LoginForm.css';
 
@@ -64,7 +64,7 @@ const LoginForm = () => {
           {errors.password && <p className="error">Password is required</p>}
         </div>
         {loginError && <div className="error-message">{loginError}</div>}
-        <button type="submit" className="submit-btn">Submit</button>  {/* Cambiar "Login" a "Submit" */}
+        <button type="submit" className="submit-btn">Submit</button>  {/* Botón para enviar el formulario */}
         <button type="button" className="reset-btn" onClick={handleReset}>Clear Form</button>  {/* Botón para limpiar el formulario */}
       </form>
     </div>
