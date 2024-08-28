@@ -29,3 +29,83 @@
     max-width: 400px;  /* Ancho máximo para el formulario */
   }
   
+  /* Contenedor principal */
+.landing-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos del encabezado */
+  .landing-header {
+    background-color: #66bb6a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .landing-main {
+    padding: 20px;
+  }
+  
+  /* Sección de introducción */
+  .intro-section {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  .intro-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* Tabla de temas cubiertos */
+  .topics-section {
+    margin-bottom: 40px;
+  }
+  
+  .topics-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .topics-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .topics-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .topics-table td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Sección de recursos */
+  .resources-section {
+    margin-top: 30px;
+  }
+  
+  .resources-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos del pie de página */
+  .landing-footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
