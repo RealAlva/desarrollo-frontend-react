@@ -2,6 +2,7 @@
   "name": "desarrollo-frontend-react",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://realalva.github.io/desarrollo-frontend-react",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
@@ -26,6 +27,19 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+=======
+  "dependencies": {
+    "cra-template": "1.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+>>>>>>> 52b5cb85e48f2beb51ddac67eef1206f79a37055
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +58,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "@testing-library/react": "^16.0.0",
@@ -54,5 +69,7 @@
     "gh-pages": "^6.1.1",
     "jest": "^27.5.1",
     "prettier": "^3.3.3"
+=======
+>>>>>>> 52b5cb85e48f2beb51ddac67eef1206f79a37055
   }
 }

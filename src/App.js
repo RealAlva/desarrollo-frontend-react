@@ -12,10 +12,10 @@ const App = () => {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
-        {isAuthenticated && <Navbar />}
+        {isAuthenticated && <Navbar />}  {/* Mostrar el Navbar solo si el usuario está autenticado */}
         
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/" element={<LandingPage />} />  {/* Ruta pública */}
           <Route 
             path="/dashboard" 
             element={

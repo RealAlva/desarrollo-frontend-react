@@ -1,19 +1,18 @@
 import React from 'react';
-import LoginForm from '../components/LoginForm';  // Importar el formulario de login
-import './LandingPage.css';  // Asegúrate de que los estilos estén aplicados
+import LoginForm from '../components/LoginForm';  
+import './LandingPage.css';  
 
 const LandingPage = () => {
   return (
-    <div className="landing-page">
-      <header className="landing-header">
-        <h1>Módulo 7: DESARROLLO FRONTEND CON REACTJS</h1>
-      </header>
-      <main className="landing-main">
+    <div className="landing-page-container">
+      <div className="landing-header">
+        Modulo 7: DESARROLLO FRONTEND CON REACTJS
+      </div>
+
+      <div className="landing-main">
         <section className="intro-section">
           <h2>Bienvenido</h2>
-          <p>
-            Este módulo se centra en el uso de <strong>React</strong>, incluyendo la creación de <strong>componentes</strong>, el manejo de <strong>hooks</strong>, y el uso de <strong>Redux</strong>.
-          </p>
+          <p>Este módulo se centra en el uso de React...</p>
         </section>
 
         <section className="topics-section">
@@ -44,7 +43,8 @@ const LandingPage = () => {
           <h3>Recursos Adicionales</h3>
           <p>Para profundizar en los temas cubiertos, consulta los siguientes recursos:</p>
         </section>
-      </main>
+      </div>
+      
       <footer className="landing-footer">
         <p>&copy; 2024 Módulo 7. USIP.</p>
       </footer>

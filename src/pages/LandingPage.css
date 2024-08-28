@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f0f0f0;  /* Fondo claro */
+    background-color: #f0f0f0;
     padding: 20px;
   }
   
@@ -26,11 +26,11 @@
   /* Sección del formulario */
   .form-section {
     width: 100%;
-    max-width: 400px;  /* Ancho máximo para el formulario */
+    max-width: 400px;
   }
   
   /* Contenedor principal */
-.landing-page {
+  .landing-page {
     font-family: Arial, sans-serif;
     color: #333;
     max-width: 1200px;
@@ -59,6 +59,8 @@
   .intro-section h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
+    border-bottom: 3px solid green;
+    padding-bottom: 5px;
   }
   
   .intro-section p {
@@ -73,6 +75,8 @@
   .topics-section h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    border-bottom: 3px solid green;
+    padding-bottom: 5px;
   }
   
   .topics-table {
@@ -98,6 +102,8 @@
   .resources-section h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    border-bottom: 3px solid green;
+    padding-bottom: 5px;
   }
   
   /* Estilos del pie de página */
