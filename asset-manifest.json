@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/desarrollo-frontend-react/static/css/main.027f57cd.css",
+    "main.js": "/desarrollo-frontend-react/static/js/main.68c27167.js",
+    "static/js/453.94981b09.chunk.js": "/desarrollo-frontend-react/static/js/453.94981b09.chunk.js",
+    "index.html": "/desarrollo-frontend-react/index.html",
+    "main.027f57cd.css.map": "/desarrollo-frontend-react/static/css/main.027f57cd.css.map",
+    "main.68c27167.js.map": "/desarrollo-frontend-react/static/js/main.68c27167.js.map",
+    "453.94981b09.chunk.js.map": "/desarrollo-frontend-react/static/js/453.94981b09.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.027f57cd.css",
+    "static/js/main.68c27167.js"
+  ]
+}
