@@ -10,7 +10,7 @@ const App = () => {
   const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         {isAuthenticated && <Navbar />}  {/* Mostrar el Navbar solo si el usuario está autenticado */}
         

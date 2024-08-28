@@ -1,8 +1,8 @@
 {
-  "name": "Proyecto final - mod7",
+  "name": "desarrollo-frontend-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dheeyi.github.io/desarrollo-frontend-react",
+  "homepage": "https://realalva.github.io/desarrollo-frontend-react",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
@@ -20,7 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env PUBLIC_URL=/ react-scripts start", 
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^16.0.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.35.0",
