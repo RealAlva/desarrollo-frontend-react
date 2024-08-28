@@ -1,15 +1,33 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import LandingPage from './pages/LandingPage';
+import Dashboard from './pages/Dashboard';
+import Navbar from './components/Navbar';  // Importar el Navbar
+import ProtectedRoute from './components/ProtectedRoute';  // Ruta protegida
 
-import Navbar from "./components/Navbar";
-import { Outlet } from 'react-router-dom';
+const App = () => {
+  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
 
-function App() {
   return (
-    <>
-        <Navbar />
-        <Outlet />
-    </>
+    <Router>
+      <div className="App">
+        {isAuthenticated && <Navbar />}  {/* Mostrar el Navbar solo si el usuario está autenticado */}
+        
+        <Routes>
+          <Route path="/" element={<LandingPage />} />  {/* Ruta pública */}
+          <Route 
+            path="/dashboard" 
+            element={
+              <ProtectedRoute>
+                <Dashboard />
+              </ProtectedRoute>
+            } 
+          />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

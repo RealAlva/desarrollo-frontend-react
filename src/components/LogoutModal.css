@@ -1,0 +1,53 @@
+/* Estilos generales del modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f5deb3;  /* Fondo beige especificado */
+  padding: 20px;  /* Aumentar el padding para asegurar espacio */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 450px;  /* Ajuste de ancho para asegurar que hay suficiente espacio */
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
+}
+
+/* Botón de cierre "X" */
+.close-button {
+  background-color: transparent;
+  border: none;
+  color: #8b4513;  /* Marrón claro */
+  font-size: 18px;  /* Tamaño de fuente ajustado para que no solape */
+  position: absolute;
+  top: 5px;  /* Ajuste para alinear con la esquina superior */
+  right: 10px;  /* Ajuste para alinear con la esquina superior */
+  cursor: pointer;
+}
+
+/* Contenido del modal */
+.modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;  /* Asegurar que el contenido esté alineado a la izquierda */
+  margin-right: 50px;  /* Crear espacio a la derecha para evitar el solapamiento */
+  color: #8b4513;  /* Marrón */
+  font-family: Arial, sans-serif;
+  font-size: 14px;  /* Tamaño de fuente ajustado para coincidir con el diseño */
+}
+
+/* Botón de confirmación */
+.confirm-button {
+  background-color: #8b4513;  /* Marrón */
+  color: white;
+  border: none;
+  padding: 8px 12px;  /* Ajuste de padding para que coincida con el tamaño en el diseño */
+  font-size: 12px;  /* Tamaño de fuente ajustado para que coincida con el diseño */
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 10px;  /* Espaciado ajustado entre el texto y el botón */
+}
+
+.confirm-button:hover {
+  background-color: #a0522d;  /* Un tono más claro al pasar el mouse */
+}
